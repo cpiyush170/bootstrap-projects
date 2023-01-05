@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+
+
+*{
+  font-family: 'Martel', serif;
+}
+
+
+.carousel-caption{
+  bottom: 40vh;
+}
+.carousel-caption h5{
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.carousel-caption p{
+  margin: auto;
+  font-size: 1.3rem;
+  line-height: 2;
+}
+.carousel-item img{
+  filter: brightness(50%);
+}
+.w-100{
+  height: 100vh;
+}
+.section-padding{
+  padding: 6.3rem 0;
+}
+
+.services-section .card-body i{
+  font-size: 3rem;
+}
+.portfolio-section .card, .team-section .card{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.team-section .card-body i{
+  font-size: 1.3rem;
+}
+
+
+
+
+/* responsive css */
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption{
+    bottom: 40vh;
+  }
+  .carousel-caption h5{
+    font-size: 2rem;
+  }
+  .carousel-caption p{
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .card{
+    margin-bottom: 2rem;
+  }
+  .img-area img{
+    width: 100%;
+  }
+  .about-text{
+    margin-top: 3rem;
+  }
+  .about-text h2{
+    margin-bottom: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav{
+    text-align: center;
+  }
+  .carousel-caption{
+    bottom: 40vh;
+  }
+  .carousel-caption h5{
+    font-size: 1.5rem;
+  }
+  .carousel-caption p{
+    width: 100%;
+    font-size: 0.6rem;
+    line-height: 1;
+  }
+  .carousel-caption .btn{
+    font-size: 10px;
+  }
+  .card{
+    margin-bottom: 1.5rem;
+  }
+  .about-text{
+    margin-top: 4rem;
+  }
+  .about-text h2{
+    margin-bottom: 1rem;
+  }
+}
